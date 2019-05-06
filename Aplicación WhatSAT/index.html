@@ -1,0 +1,66 @@
+<html>
+<head>
+  <title>WhatSAT 2019</title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' *; style- src 'self' * 'unsafe-inline'; script-src * 'unsafe-inline' ; img-src * data: ">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos.css"/>
+  <link rel="icon" type="image/png" href="img/favicon.png" sizes="30x30">
+</head>
+<body>
+<script type="text/javascript" src="cam.js" ></script>
+<script type="text/javascript" src="script.js"></script>
+<!--                      -->
+<!-- Seccion 1.principal  -->
+<!--                      -->
+<div id="principal">
+  <!--                      -->
+  <!-- Seccion 2.identifica -->
+  <!--                      -->
+  <div class="container center" id="identifica">
+     <h1 class="top_header">WhatSAT 2019</h1>
+     <form id="usuario">
+       <label class="text-primary">*Introduce tu nombre de usuario</label>
+       <div class="row">
+         <div class="col-xs-7"><input type="text" name="userName" class="form-control" onChange="handleInput(value)"/></div>
+         <div class="col-xs-2"><input type="button" class="btn btn-primary"  value="Usuarios" onClick="compruebausuario()"/></div>
+       </div>
+     </form>
+  </div>
+  <!--                      -->
+  <!-- Seccion 3.contactos  -->
+  <!--                      -->
+<div id="logueo"></div>
+  <div class="container center" id="contactos">
+    <table id="tabla"></table>
+  </div>
+  <!--                      -->
+  <!-- Seccion 4.terminal   -->
+  <!--                      -->
+  <div class="container" id="terminal">
+    <!--                      -->
+    <!-- Seccion 4.1.fotos      -->
+    <!--                      -->
+     <div id="cabecera">
+
+     </div>
+    <div  class="pantalla" id="pantalla">
+
+            <div id="text-envia"> </div>
+            <div id="text-recibe"> </div>
+            <span></span>
+    </div>
+
+    <div>
+      <input type="text" id= "textoteclado" class="form-control" name="teclado" onChange="handleTeclado(value)"/>
+    </div>
+    <div id="comandos">
+      <img  id="botonEnviar"  name="envia" src='img/telegram.png' alt="envia" onClick="handleEnvia(texto)" />
+      <img  id="button-activate-webcam"  name="fotos" src='img/photo.png' alt="fotos" onClick="handleFotos()"/>
+      <img  id="button-geolocation" name="geolocation" src='img/marcador-de-posicion.png' alt="geolocalizacion" onClick="handleGeoLocation()" />
+      <img  id="button-send-voz" name="voz" src='img/voice.png' alt="voz" onClick="handleVoz()" />
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

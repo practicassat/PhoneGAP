@@ -1,0 +1,164 @@
+body{
+background-image: url(img/fondo.png);
+
+
+/*background: black;*/
+width: 425px;
+height: 520px;
+
+}
+
+.center {
+  text-align:center;
+}
+
+table{
+  border-collapse:collapse;
+  margin: 5% 5% 5% 5%;
+  background-color:#195f70;
+}
+
+td{
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+tr:hover {background-color:#00a5cf;}
+.center form {
+ display:inline-block;
+}
+
+h1 {
+  color:white;
+}
+
+p{
+
+  color:black;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#contactos{
+  position:absolute;
+  padding: 10px;
+  visibility: hidden;
+  background-color:#3c9ebd;
+  /*margin-top: 5px;
+  margin-left: 25px;*/
+  overflow: auto;
+  width: 400px;
+  height: 500px;
+  z-index: 0;
+  top:200px;
+  margin: 5px 5px 5px 5px;
+  border:2px solid black;
+
+}
+#terminal{
+   z-index: 1;
+   visibility:hidden;
+   position:absolute;
+   height: 400px;
+   width: 400px;
+   padding: 10px;
+   margin: 5px 5px 5px 5px;
+}
+
+#pantalla{
+height: 400px;
+width: 400px;
+background-color: white;
+overflow: auto;
+border:2px solid black;
+background-image: url(img/chat2.png) ;
+}
+
+#textoteclado{
+  width:400px;
+  border: 2px solid black;
+}
+
+#fotos{
+   z-index: 2;
+   visibility: hidden;
+   position:absolute;
+   align:center;
+}
+
+#cabecera{
+height: 50px;
+width:400px ;
+background-color: #eeeeee;
+border: 2px solid black;
+}
+#logueo{
+position: relative;
+height: 47px;
+width: 400px;
+background-color: #0081b1;
+visibility: hidden;
+top:16px;
+left: 5px;
+border:2px solid black;
+}
+
+#botonEnviar{
+  /*position: absolute;
+  margin: 5px 5px 5px 5px;*/
+  padding-top: 5px;
+  background-image:url(img/telegram.png);
+  background-repeat:no-repeat;
+  border-radius:55%;
+  display:inline-block;
+  border: none;
+  cursor: pointer;
+  height:64px;
+  width:64px;
+
+}
+#botonEnviar:hover{
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#button-send-voz{
+  /*position: absolute;
+  margin: 5px 5px 5px 75px;*/
+  padding-top: 5px;
+  border-radius:55%;
+  height:64px;
+  width:64px;
+  display:inline-block;
+  border: none;
+  cursor: pointer;
+}
+#button-send-voz:hover{
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#button-activate-webcam{
+  /*position: absolute;
+  margin: 5px 5px 5px 150px;*/
+  padding-top: 5px;
+  height:64px;
+  width:64px;
+  border-radius:55%;
+  display:inline-block;
+  border: none;
+  cursor: pointer;
+}
+#button-activate-webcam:hover{
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#button-geolocation{
+  /*position: absolute;
+  margin: 6px 5px 5px 225px;*/
+  padding-top: 5px;
+  height:64px;
+  width:64px;
+  border-radius:55%;
+  display:inline-block;
+  border: none;
+  cursor: pointer;
+}
+#button-geolocation:hover{
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
