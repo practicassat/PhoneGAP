@@ -145,18 +145,18 @@ function creacabecera(){
     //var creacabecera = document.getElementById("cabecera");
     //var parrafo  = document.createElement("p");
     //creacabecera.appendChild(parrafo);
-    document.getElementById("cabecera").innerHTML='<p><img width=40 height=40 style = border-radius:50% src="'+imagen+'"/>'+nombre+" "+apellidos+'</p>'
+    document.getElementById("cabecera").innerHTML='<p><img id="img-cabecera"  src="'+imagen+'"/>'+nombre+" "+apellidos+'</p>'
 
   }
   if(origen==id && document.getElementById("contactos").style.visibility=='visible' ){
     var id_logueo = name;
     var logueo_apellidos = surName;
-    var imagen_logueo = profileImageUrl
+    var imagen_logueo = profileImageUrl;
 
     //var parrafo  = document.createElement("p");
     //var crealogueo = document.getElementById("logueo");
     //crealogueo.appendChild(parrafo);
-      document.getElementById("logueo").innerHTML='<p><img width=40 height=40 style = border-radius:50% src="'+imagen_logueo+'"/>'+id_logueo+" "+logueo_apellidos+'</p>'
+      document.getElementById("logueo").innerHTML='<p><img id="img-logueo"  src="'+imagen_logueo+'"/>'+id_logueo+" "+logueo_apellidos+'</p>'
       document.getElementById("logueo").style.visibility="visible";
   }
  }
