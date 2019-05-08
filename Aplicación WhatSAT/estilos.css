@@ -76,6 +76,12 @@ overflow: auto;
 border:2px solid black;
 background-image: url(img/chat2.png) ;
 }
+#pantalla p{
+
+font-size: 100%;
+
+
+}
 
 #textoteclado{
   width:100%;
