@@ -61,11 +61,11 @@ p{
 #terminal{
    z-index: 1;
    visibility:hidden;
-   position:fixed;
-   margin: 0.001% auto;
+   position:absolute;
+   margin: 0% auto;
    height: 70%;
    width: 100%;
-   top:-0.005%;
+   top:-0.05%;
 }
 
 #pantalla{
@@ -77,8 +77,10 @@ border:2px solid black;
 background-image: url(img/chat2.png) ;
 }
 #pantalla p{
+
 font-size: 100%;
-text-align: center;
+
+
 }
 
 #textoteclado{
@@ -94,12 +96,10 @@ text-align: center;
 }
 
 #cabecera{
-height: 5%;
-width:100% ;
+height: 3.5%;
+width:100%;
 background-color: #eeeeee;
 border: 2px solid black;
-min-width: 280px;
-min-height: 560px;
 }
 #cabecera  p{
   font-size: 100%;
@@ -144,8 +144,6 @@ height: 100%;
   cursor: pointer;
   height:10%;
   width:10%;
-  max-width: 100px;
-  max-height: 90px;
 
 }
 #botonEnviar:hover{
@@ -161,8 +159,6 @@ box-shadow: 0 7% 8% 0 rgba(0,0,0,0.24), 0 17px 50% 0 rgba(0,0,0,0.19);
   display:inline-block;
   border: none;
   cursor: pointer;
-  max-width: 100px;
-  max-height: 90px;
 }
 #button-send-voz:hover{
 box-shadow: 0 7% 8% 0 rgba(0,0,0,0.24), 0 17px 50% 0 rgba(0,0,0,0.19);
@@ -177,8 +173,6 @@ box-shadow: 0 7% 8% 0 rgba(0,0,0,0.24), 0 17px 50% 0 rgba(0,0,0,0.19);
   display:inline-block;
   border: none;
   cursor: pointer;
-  max-width: 100px;
-  max-height: 90px;
 }
 #button-activate-webcam:hover{
 box-shadow: 0 7% 8% 0 rgba(0,0,0,0.24), 0 17px 50% 0 rgba(0,0,0,0.19);
@@ -193,8 +187,6 @@ box-shadow: 0 7% 8% 0 rgba(0,0,0,0.24), 0 17px 50% 0 rgba(0,0,0,0.19);
   display:inline-block;
   border: none;
   cursor: pointer;
-  max-width: 100px;
-  max-height: 90px;
 }
 #button-geolocation:hover{
 box-shadow: 0 7% 8% 0 rgba(0,0,0,0.24), 0 17px 50% 0 rgba(0,0,0,0.19);
