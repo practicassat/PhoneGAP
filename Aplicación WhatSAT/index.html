@@ -5,6 +5,12 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="estilos.css"/>
   <link rel="icon" type="image/png" href="img/favicon.png" sizes="30x30">
+  <script type="text/javascript" src="js/cam.js" ></script>
+
+  <plugin name="phonegap-plugin-speech-synthesis" source="npm" spec="0.1.1" />
+  <plugin name="phonegap-plugin-speech-recognition" source="npm" spec="0.3.0" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' *; stylesrc
+'self' * 'unsafe-inline'; script-src * 'unsafe-inline' ; img-src * data: ">
 </head>
 <body>
 <script type="text/javascript" src="cam.js" ></script>
@@ -53,7 +59,7 @@
     </div>
 
     <div>
-      <input type="text" id= "textoteclado" class="form-control" name="teclado" onChange="handleTeclado(value)"/>
+      <input type="text" id= "textoteclado"  name="teclado" onChange="handleTeclado(value)"/>
     </div>
     <div id="comandos">
       <img  id="botonEnviar"  name="envia" src='img/telegram.png' alt="envia" onClick="handleEnvia(texto)" />
