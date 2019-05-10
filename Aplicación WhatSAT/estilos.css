@@ -45,7 +45,7 @@ p{
 
 
 #contactos{
-  position:fixed;
+  position:absolute;
   width: 30%;
   height: 90%;
   z-index: 0;
@@ -64,7 +64,8 @@ p{
    position:absolute;
    margin: 0% auto;
    height: 70%;
-   width: 100%;
+   width: 70%;
+   margin-left: 30%;
    top:20%;
    min-width: 155px;
    min-height: 160px;
@@ -72,8 +73,7 @@ p{
 
 #pantalla{
 height: 90%;
-width: 70%;
-margin-left: 30%;
+width: 100%;
 background-color: white;
 overflow: auto;
 border:2px solid black;
@@ -89,8 +89,7 @@ font-size: 100%;
 
 #textoteclado{
   position: absolute;
-  width:70%;
-  margin-left: 30%;
+  width:100%;
   border: 2px solid black;
 }
 
@@ -103,8 +102,7 @@ font-size: 100%;
 
 #cabecera{
 height: 5%;
-width:70%;
-margin-left:30%;
+width:100%;
 background-color: #eeeeee;
 border: 2px solid black;
 min-width: 300px;
@@ -142,7 +140,6 @@ top:17%;
 height: 100%;
 }
 #comandos{
-  margin-left: 30%;
   margin-top: 2.5%;
 }
 
