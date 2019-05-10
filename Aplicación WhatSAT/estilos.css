@@ -155,8 +155,8 @@ height: 100%;
   cursor: pointer;
   height:10%;
   width:10%;
-  max-width: 70px;
-  max-height: 90px;
+  /* max-width: 70px;
+  max-height: 90px; */
 
 }
 #botonEnviar:hover{
@@ -172,8 +172,8 @@ box-shadow: 0 7% 8% 0 rgba(0,0,0,0.24), 0 17px 50% 0 rgba(0,0,0,0.19);
   display:inline-block;
   border: none;
   cursor: pointer;
-  max-width: 70px;
-  max-height: 90px;
+  /* max-width: 70px;
+  max-height: 90px; */
 }
 #button-send-voz:hover{
 box-shadow: 0 7% 8% 0 rgba(0,0,0,0.24), 0 17px 50% 0 rgba(0,0,0,0.19);
@@ -188,8 +188,8 @@ box-shadow: 0 7% 8% 0 rgba(0,0,0,0.24), 0 17px 50% 0 rgba(0,0,0,0.19);
   display:inline-block;
   border: none;
   cursor: pointer;
-  max-width: 70px;
-  max-height: 90px;
+  /* max-width: 70px;
+  max-height: 90px; */
 }
 #button-activate-webcam:hover{
 box-shadow: 0 7% 8% 0 rgba(0,0,0,0.24), 0 17px 50% 0 rgba(0,0,0,0.19);
@@ -204,8 +204,8 @@ box-shadow: 0 7% 8% 0 rgba(0,0,0,0.24), 0 17px 50% 0 rgba(0,0,0,0.19);
   display:inline-block;
   border: none;
   cursor: pointer;
-  max-width: 70px;
-  max-height: 90px;
+  /* max-width: 70px;
+  max-height: 90px; */
 }
 #button-geolocation:hover{
 box-shadow: 0 7% 8% 0 rgba(0,0,0,0.24), 0 17px 50% 0 rgba(0,0,0,0.19);
