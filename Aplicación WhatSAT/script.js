@@ -144,7 +144,7 @@ function creacabecera(){
     //var creacabecera = document.getElementById("cabecera");
     //var parrafo  = document.createElement("p");
     //creacabecera.appendChild(parrafo);
-    document.getElementById("cabecera").innerHTML='<p><img id="img-cabecera"  src="'+imagen+'"/>'+nombre+" "+apellidos+'</p>'
+    document.getElementById("cabecera").innerHTML='<p><img id="img-flecha"  src="img/flecha.png" onClick="retroceso()"/><img id="img-cabecera"  src="'+imagen+'"/>'+nombre+" "+apellidos+'</p>'
 
   }
   if(origen==id && document.getElementById("contactos").style.visibility=='visible' ){
@@ -155,18 +155,26 @@ function creacabecera(){
     //var parrafo  = document.createElement("p");
     //var crealogueo = document.getElementById("logueo");
     //crealogueo.appendChild(parrafo);
-      document.getElementById("logueo").innerHTML='<p><img id="img-logueo"  src="'+imagen_logueo+'"/>'+id_logueo+" "+logueo_apellidos+'</p>'
+      document.getElementById("logueo").innerHTML='<p><img id="img-logueo"  src="'+imagen_logueo+'"/>'+id_logueo+" "+logueo_apellidos+'</p>';
       document.getElementById("logueo").style.visibility="visible";
   }
  }
-
  });
+
 }
 /* Función terminal
 -----------------------
 Parámetros : id_dest
 Descripción : Crea la terminal donde se van a enviar y recibir mensajes
 */
+
+function retroceso(){
+  document.getElementById("terminal").style.visibility="hidden";
+  document.getElementById("contactos").style.visibility="visible";
+  document.getElementById("logueo").style.visibility="visible";
+
+}
+
 function terminal(id_dest){
 if(contadora!=0){
 
@@ -178,7 +186,8 @@ destino = id_dest;
 creacabecera();
 document.getElementById("terminal").style.visibility="visible";
 setInterval(recibe,3000,id_org,id_dest);
-
+document.getElementById("contactos").style.visibility="hidden";
+document.getElementById("logueo").style.visibility="hidden";
 }
 /* Función recibe
 -----------------------
